@@ -22,7 +22,7 @@ document.getElementById("three-btn").addEventListener("click", () => {
 });
 
 document.getElementById("divide-btn").addEventListener("click", () => {
-    display("/");
+    display(" / ");
 });
 
 // Second row
@@ -39,7 +39,7 @@ document.getElementById("six-btn").addEventListener("click", () => {
 });
 
 document.getElementById("minus-btn").addEventListener("click", () => {
-    display("-");
+    display(" - ");
 });
 
 // Third row
@@ -56,7 +56,7 @@ document.getElementById("nine-btn").addEventListener("click", () => {
 });
 
 document.getElementById("plus-btn").addEventListener("click", () => {
-    display("+");
+    display(" + ");
 });
 
 // Fourth row
@@ -69,7 +69,7 @@ document.getElementById("zero-btn").addEventListener("click", () => {
 });
 
 document.getElementById("multiply-btn").addEventListener("click", () => {
-    display("*");
+    display(" * ");
 });
 
 function result() {
