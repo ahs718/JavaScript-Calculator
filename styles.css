@@ -1,0 +1,66 @@
+* {
+    font-family: "Fira Code", monospace;
+}
+
+body {
+    background-color: #1e1e2e;
+}
+
+.calculator {
+    padding: 10px;
+    border-radius: 1em;
+    height: 380px;
+    width: 400px;
+    margin: auto;
+    background-color: #191b28;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.display-box {
+    background-color: #313244;
+    border: none;
+    color: #cdd6f4;
+    border-radius: 8px;
+    width: 100%;
+    height: 65%;
+}
+
+input[type="button"] {
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    height: 70%;
+    outline: none;
+}
+
+.calc-btn {
+    background-color: #313244;
+    color: #cdd6f4;
+}
+
+.util-btn {
+    background-color: #89b4fa;
+}
+
+input:active[type="button"] {
+    background: #b4befe;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+    -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+    box-shadow: inset 0px 0px 5px #c1c1c1;
+    border: none;
+}
+
+@media screen and (max-width: 720px) {
+    table {
+        max-width: 100%;
+    }
+
+    .calculator {
+        padding: 10px;
+        border-radius: 1em;
+        width: 340px;
+        margin: auto;
+        margin-top: 16px;
+        background-color: #191b28;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+}
