@@ -84,7 +84,7 @@ document.getElementById("equals-btn").addEventListener("click", () => {
 });
 
 // Get calculation result using enter key
-document.addEventListener("keyup", function (event) {
+document.addEventListener("keypress", function (event) {
     if (event.key === "Enter") {
         result();
     }
