@@ -1,5 +1,7 @@
 # JavaScript Calculator
 
+[View the live website here!](https://ahs718.github.io/JavaScript-Calculator/)
+
 ![demo](./img/demo.gif)
 
 I decided to make this project in order to further my understanding on how all three elements (HTML, CSS, and JavaScript) of a webpage interact with one another and come together.
