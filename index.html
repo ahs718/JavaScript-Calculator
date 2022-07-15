@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- Import Font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet" />
+
+        <!-- Import CSS -->
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Calculator</title>
+    </head>
+
+    <body>
+        <table class="calculator">
+            <tr>
+                <td colspan="3"><input class="display-box" type="text" id="result" /></td>
+
+                <!-- clearScreen() function clears all the values -->
+                <td><input type="button" value="C" onclick="clearScreen()" class="util-btn" id="clear-btn" /></td>
+            </tr>
+            <tr>
+                <!-- display() function displays the value of clicked button -->
+                <td><input type="button" value="1" id="one-btn" class="calc-btn" /></td>
+                <td><input type="button" value="2" id="two-btn" class="calc-btn" /></td>
+                <td><input type="button" value="3" id="three-btn" class="calc-btn" /></td>
+                <td><input type="button" value="/" id="divide-btn" class="calc-btn" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" id="four-btn" class="calc-btn" /></td>
+                <td><input type="button" value="5" id="five-btn" class="calc-btn" /></td>
+                <td><input type="button" value="6" id="six-btn" class="calc-btn" /></td>
+                <td><input type="button" value="-" id="minus-btn" class="calc-btn" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" id="seven-btn" class="calc-btn" /></td>
+                <td><input type="button" value="8" id="eight-btn" class="calc-btn" /></td>
+                <td><input type="button" value="9" id="nine-btn" class="calc-btn" /></td>
+                <td><input type="button" value="+" id="plus-btn" class="calc-btn" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." id="dec-btn" class="calc-btn" /></td>
+                <td><input type="button" value="0" id="zero-btn" class="calc-btn" /></td>
+
+                <!-- calculate() function evaluates the mathematical expression -->
+                <td><input type="button" value="=" class="util-btn" id="equals-btn" /></td>
+                <td><input type="button" value="*" class="calc-btn" id="multiply-btn" /></td>
+            </tr>
+        </table>
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/10.6.4/math.js"
+            integrity="sha512-BbVEDjbqdN3Eow8+empLMrJlxXRj5nEitiCAK5A1pUr66+jLVejo3PmjIaucRnjlB0P9R3rBUs3g5jXc8ti+fQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script type="text/javascript" src="./app.js"></script>
+    </body>
+</html>
